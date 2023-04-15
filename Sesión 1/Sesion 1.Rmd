@@ -108,6 +108,7 @@ La encuesta LAPOP está en la web. Varios años son de libre acceso, pero podemo
 ```{r}
 library(rio)
 
+
 #Opción 1
 lkDTA="https://github.com/PoliticayGobiernoPUCP/estadistica_anapol2/raw/master/DATA/lapop2012.dta"
 dataStata=import(lkDTA)
